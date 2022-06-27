@@ -1,0 +1,21 @@
+                      //  part-first
+
+.container{
+  max-width: 1329px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+  ::-webkit-scrollbar{
+    width: 20px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    border: #34A0CD;
+    border-radius: 42px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-image: linear-gradient(152.13deg, #374e4c -150.21%, #0d252f 170.03%);
+  }

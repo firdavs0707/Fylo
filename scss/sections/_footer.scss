@@ -1,0 +1,151 @@
+.background{
+  max-width: 100%;
+  background-color: #0B1524;
+}
+
+.footer{
+  height: 515px;
+}
+
+.footer-logo{
+  display: block;
+  padding-top: 203px;
+}
+
+.footer-navigations{
+  margin-top: 40px;
+  display: flex;
+}
+
+.part-one{
+  display: flex;
+  align-items: start;
+}
+
+.part-one-text{
+  max-width: 345px;
+  height: 72px;
+  margin-top: -3px;
+  font-family: 'OpenSans';
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  }
+
+  .part-two{
+    margin-left: 110px
+  }
+
+  .tel{
+    display: flex;
+  }
+
+  .tel-num{
+    text-decoration: none;
+    color:#fff;
+    margin-left: 15px;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+.email{
+  display: flex;
+  align-items: center;
+}
+
+.email-text{
+  color:#fff;
+    margin-left: 26.5px;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.part-three{
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+
+.item-copy{
+  height: 22px;
+  margin-bottom: 10px;
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.part-four{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.part-five{
+  max-width: 200px;
+  margin-left: 120px;
+}
+
+@media screen and (max-width:1300px) {
+  .background{
+    width: 100%;
+    margin-top: 170px;
+    height: 1000px;
+  }
+
+  .part-two{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: -0px;
+  }
+
+  .part-three{
+  
+    margin-bottom: 50px;
+    margin-left: -0px;
+  }
+
+  .part-four{
+   
+    margin-bottom: 50px;
+    margin-left: -0px;
+  }
+
+  .part-five{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: -0px;
+  }
+
+  .footer-navigations{
+    display: flex;
+    flex-direction: column;
+    margin-left: 33%;
+  }
+
+  .footer-logo{
+    margin-left: 33%;
+  }
+
+  .part-one{
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .background{
+    max-width: 100%;
+    margin-top: 170px;
+    height: 1000px;
+  }
+
+  .main-img{
+    width: 104px;
+  }
+}
+

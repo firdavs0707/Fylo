@@ -1,0 +1,124 @@
+.header-line-first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.header-logo{
+  width: 176px;
+  height: 52px;
+  transition: transform 2s ease;
+}
+
+.header-logo:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.header-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 270px;
+  height: 20px;
+}
+
+.list-style:hover{
+  color: #63E1D9;
+}
+
+.list-style:active{
+  color: #34A0CD;
+}
+.list-style{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.big-centeral-img{
+  display: block;
+  width: 720px;
+  height: 535px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 91px;
+}
+
+.big-text{
+  display: block;
+  width: 734px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.small-text{
+  display: block;
+  width: 590px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  font-family: 'OpenSans';
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.button{
+  width: 280px;
+  height: 60px;
+  margin-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border: #fff;
+  border-radius: 28px;
+}
+
+.button:hover{
+  border: #fff;
+  background-image: linear-gradient(#181F2B );
+  box-shadow: 2px 2px 18px #fff;
+  cursor: pointer;
+}
+
+.button:active{
+  border: #fff;
+  background-image: linear-gradient(#181F2B );
+  box-shadow: 2px 2px 30px 6px #fff;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.button-text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width:1300px) {
+  
+}
+
